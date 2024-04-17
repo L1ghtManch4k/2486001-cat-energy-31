@@ -13,23 +13,26 @@
 
   <header class="header">
     <img class="header__logo" src="#" width="60" height="50" alt="Логотип Кэт энерджи">
-    <p class="header__name name">cat energy</p>
+    <img class="logo" src="#" width="101" height="18" alt="Название сайта">
     <nav class="nav">
       <ul class="nav__list">
-        <li class="nav__item">
-          <a class="nav__link" href="index.html">главная</a>
+        <li class="nav__item nav__item--active">
+          <a class="nav__link" href="#">главная</a>
         </li>
-        <li class="nav__item-active">
-          <a class="nav__link" href="#">каталог продукции</a>
+        <li class="nav__item">
+          <a class="nav__link" href="catalog.html">каталог продукции</a>
         </li>
         <li class="nav__item">
           <a class="nav__link" href="#">подбор программы</a>
         </li>
       </ul>
+      <button class="nav__burger-button button" type="button">
+        <span class="visually-hidden">кнопка открытия меню</span>
+      </button>
     </nav>
   </header>
 
-  <main>
+  <main class="main">
 
     <section class="catalog-products">
       <h1 class="catalog-products__title title">Каталог продукции</h1>
@@ -136,7 +139,7 @@
         <label class="offers__label">
           <input class="offers__input" type="email" value="kuklachev@gmail.com" name="email" required>
         </label>
-        <button class="offers_button button" type="submit">Подписаться</button>
+        <button class="offers__button button" type="submit">Подписаться</button>
       </form>
     </section>
 
@@ -148,27 +151,27 @@
 
   </main>
 
-  <footer class="page-footer">
-    <p class="page-footer__name name">cat energy</p>
-    <ul class="page-footer__list-contacts">
-      <li class="page-footer__item-contacts">
-        <a class="page-footer__link-contacts" href="#">
-          <span>Вконтакте</span>
+  <footer class="footer">
+    <img class="logo" src="#" width="101" height="18" alt="Название сайта">
+    <ul class="footer__list-contacts">
+      <li class="footer__item-contacts">
+        <a class="footer__link-contacts" href="#">
+          <span class="visually-hidden">Вконтакте</span>
         </a>
       </li>
-      <li class="page-footer__item-contacts">
-        <a class="page-footer__link-contacts" href="#">
-          <span>Телеграм</span>
+      <li class="footer__item-contacts">
+        <a class="footer__link-contacts" href="#">
+          <span class="visually-hidden">Телеграм</span>
         </a>
       </li>
-      <li class="page-footer__item-contacts">
-        <a class="page-footer__link-contacts" href="#">
-          <span>Ютуб</span>
+      <li class="footer__item-contacts">
+        <a class="footer__link-contacts" href="#">
+          <span class="visually-hidden">Ютуб</span>
         </a>
       </li>
     </ul>
-    <div class="page-footer__htmlacademy">
-      <a class="page-footer__htmlacademy-link" href="https://htmlacademy.ru/study">html Academy</a>
+    <div class="footer__htmlacademy">
+      <a class="footer__htmlacademy-link" href="https://htmlacademy.ru/study">html Academy</a>
     </div>
   </footer>
 </body>
