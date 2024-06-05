@@ -201,7 +201,9 @@
       padding-right: 0;
     }
   }
+}
 
+.how-work__problem {
   &--word-problem {
     @media (min-width: $tablet-width) {
       position: absolute;
